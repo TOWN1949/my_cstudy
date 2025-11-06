@@ -88,6 +88,9 @@ void DispList(SqList *L)//使用void来输出是因为这个地方不需要计�
     int j;
     if(i<1||i>L->length+1)//只有第零个位置以及length+1的位置不可以插入
         return false;
+    i--;
+    for(j=L->length;j>i;j--)L-<data[j]
+
  }
 
 
