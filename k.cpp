@@ -24,7 +24,7 @@ int main()
             q++;
         }
     }
-    cout<<setprecision(1)<<fixed<<numofk<<endl;
+    cout<<setprecision(1)<<fixed<<numofk<<" ";
     cout<<setprecision(1)<<fixed<<numofnotk<<endl;
 
     return 0;
