@@ -1,11 +1,14 @@
 #include<iostream>
+#include<vector>
 using namespace std;
 int main()
 {
-    long n;
+    int n;
     cin>>n;
-    long long total=1;
-    long long final=0;
+    vector<int> total;
+    total.push_back(1);
+    vector<int> final;
+    final.push_back(0);
     for(int i=1;i<=n;i++)
     {
         total=1;
