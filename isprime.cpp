@@ -1,22 +1,23 @@
 #include<iostream>
 #include<cmath>
 using namespace std;
-int isPrime(int n);
+int isPrime(int x,int KnowPrimes[],int numberofKnowPrimes);
 int main()
 {
-    int x;
-    cin>>x;
-    if(isPrime(x))
-        cout<<"Prime";
-    else
-        cout<<"Not Prime";
-
+    const int number=100;
+    int knowPrimes[number]={2};
+    int cout =1;
+    int i=3;
+    while (cout<number)
+    {
+        if()
+    }
 
 
     return 0;
 }
 
-int isPrime(int n)
+int isPrime(int x,int KnowPreimes[],int numberofKnow)
 {
     int ret=1;
     if (n==1)ret=0;
